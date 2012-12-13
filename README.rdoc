@@ -6,3 +6,13 @@ https://github.com/settings/applications
 specify this callback:
 
 http://localhost:3000/auth/github/callback
+
+3 - Enter your Github API key and secret here:
+
+config/initializers/omniauth.rb
+
+4 - Run your migrations, and start your server
+
+5 - Go to localhost, and click on "Authenticate via Github"
+
+6 - Success!  You should see a list of 30 repos at /users/show
