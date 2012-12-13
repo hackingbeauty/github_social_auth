@@ -1,0 +1,8 @@
+1 - Create Github API key here:
+
+https://github.com/settings/applications
+
+2 - After you've created a key for your app on Github,
+specify this callback:
+
+http://localhost:3000/auth/github/callback
